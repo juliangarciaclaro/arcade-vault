@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Press_Start_2P, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { SessionProvider } from "@/app/lib/session";
+import Nav from "@/app/components/Nav";
 
 const pressStart2P = Press_Start_2P({
   variable: "--font-pixel",
@@ -27,7 +29,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full">
         <div className="av-bg" />
         <div className="av-noise" />
-        {children}
+        <SessionProvider>
+          <Nav />
+          <main className="av-main">{children}</main>
+        </SessionProvider>
       </body>
     </html>
   );
