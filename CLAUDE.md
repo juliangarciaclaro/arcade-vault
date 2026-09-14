@@ -25,6 +25,10 @@ Usa siempre /frontend-design para diseñar la interfaz de usuario.
 
 There is no test runner configured yet.
 
+## Screenshots de Playwright
+
+Todos los screenshots tomados con Playwright (MCP o CLI) se guardan en `.playwright-screenshots/` en la raíz del proyecto, no en `/tmp` ni sueltos en la raíz.
+
 ## Stack
 
 - Next.js 16 App Router (`app/` directory), React 19.
