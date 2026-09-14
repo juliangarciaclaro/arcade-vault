@@ -1,6 +1,6 @@
 # 03 — About / Contacto con envío de correo (Resend)
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Depende de:** SPEC 01, SPEC 02
 **Fecha:** 2026-09-14
 
