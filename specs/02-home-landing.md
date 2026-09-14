@@ -1,6 +1,6 @@
 # 02 — Home / Landing Page de Arcade Vault
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Depende de:** SPEC 01
 **Fecha:** 2026-09-14
 
